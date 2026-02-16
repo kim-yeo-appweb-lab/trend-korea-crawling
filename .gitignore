@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# 가상환경
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 환경 변수
+.env
+
+# 테스트 / 커버리지
+.pytest_cache/
+htmlcov/
+.coverage
+.coverage.*
+
+# mypy
+.mypy_cache/
+
+# ruff
+.ruff_cache/
+
+# 출력 디렉토리 (JSON 결과물 제외, .gitkeep 포함)
+output/*.json
+!output/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
